@@ -1,6 +1,6 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from datetime import datetime
-from typing import Literal, Field # Literal sirve para limitar opciones, Field sirve para validaciones
+from typing import Literal # Literal sirve para limitar opciones
 
 class TicketCreate(BaseModel):
     title: str

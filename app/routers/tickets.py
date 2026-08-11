@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from tickets import TicketCreate
+from app.models.ticket import TicketCreate
 
 router = APIRouter(
     prefix="/tickets",
